@@ -58,8 +58,10 @@ xgboost
 
 
 ## Results
--Visualizations of data distribution and feature relationships
-- a more Improved model performance after balancing classes with SMOTE
--Insights into important features for predicting machine failure
+-Visualizations of data distribution and feature relationships.
+
+- a more Improved model performance after balancing classes with SMOTE.
+- 
+-Insights into important features for predicting machine failure.
 
 
