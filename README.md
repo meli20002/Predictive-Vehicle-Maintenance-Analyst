@@ -27,17 +27,20 @@ Feature importance visualization
 
 ## Files
 
-predictive_maintenance/
-├── ai4i2020.csv
-├── predictive_maintainance_analysis.ipynb
-├── requirements.txt
+Predictive-Vehicle-Maintenance-Analyst/
+│
+├── data/
+│   └── ai4i2020.csv
+│
+├── notebooks/
+│   └── predictive_maintainance_analysis.ipynb
+│
+├── results/
+│   ├── confusion_matrix.png
+│   └── feature_importance.png
+│
 ├── README.md
-└── images/
-    ├── failure_distribution.png
-    ├── tool_wear_vs_failure.png
-    ├── correlation_heatmap.png
-    ├── confusion_matrix.png
-    └── feature_importance.png
+├── requirements.txt
 
     
 ## Requirements
