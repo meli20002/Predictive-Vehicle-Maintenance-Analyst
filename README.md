@@ -28,23 +28,24 @@ Feature importance visualization
 ## Files
 
 Predictive-Vehicle-Maintenance-Analyst/
-│
+.
 ├── data/
 │   └── ai4i2020.csv
-│
 ├── notebooks/
 │   └── predictive_maintainance_analysis.ipynb
-│
 ├── results/
 │   ├── confusion_matrix.png
-│   └── feature_importance.png
-│
+│   ├── feature_importance.png
+│   ├── xgboost_confusion_matrix.png
+│   ├── xgboost_feature_importance.png
+│   ├── xgboost_log_loss.png
+│   └── xgboost_error.png
 ├── README.md
 ├── requirements.txt
 
     
 ## Requirements
-Python 3.7+
+Python 
 pandas
 numpy
 matplotlib
