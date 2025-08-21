@@ -1,11 +1,14 @@
-# Predictive-Vehicle-Maintenance-Analyst
-A data science project analyzing sensor data to predict vehicle component failure. showcases the full ML pipeline: data cleaning, exploratory analysis, feature engineering, and model training with a Random Forest and xboost classifier. Built with Python, Pandas, and Scikit-learn
+# Predictive Vehicle Maintenance Analyst
 
+A data science project analyzing sensor data to predict vehicle component failures. This project showcases the full machine learning pipeline from data cleaning to model deployment, demonstrating expertise in predictive maintenance applications.
 
-This Jupyter Notebook performs predictive maintenance analysis on the "AI4I 2020 Predictive Maintenance Dataset". The goal is to predict machine failures based on sensor data and operational parameters.
+## Project Overview
+
+This project uses the AI4I 2020 Predictive Maintenance Dataset to build machine learning models that can predict machine failures based on sensor data and operational parameters. The implementation includes comprehensive data analysis, feature engineering, and model evaluation.
 
 ## Dataset
-The dataset contains 10,000 rows and 14 columns, including:
+
+The dataset contains 10,000 data points with the following features:
 - UDI, Product ID
 - Type (categorical: L, M, H)
 - Air temperature [K]
@@ -16,24 +19,23 @@ The dataset contains 10,000 rows and 14 columns, including:
 - Machine failure (target variable)
 - Failure modes: TWF, HDF, PWF, OSF, RNF
 
-## Features
-Data loading and preprocessing
-Exploratory Data Analysis (EDA) with visualizations
-Handling class imbalance using SMOTE
-Machine learning model training (Random Forest, XGBoost)
-Model evaluation (accuracy, classification report, confusion matrix)
-Feature importance visualization
+## Key Features
 
+- Data loading and preprocessing
+- Exploratory Data Analysis (EDA) with comprehensive visualizations
+- Handling class imbalance using SMOTE
+- Machine learning model training (Random Forest, XGBoost)
+- Model evaluation (accuracy, classification report, confusion matrix)
+- Feature importance visualization
 
-## Files
+## Project Structure
 
+```
 Predictive-Vehicle-Maintenance-Analyst/
-.
-
 ├── data/
 │   └── ai4i2020.csv
 ├── notebooks/
-│   └── predictive_maintainance_analysis.ipynb
+│   └── predictive_maintenance_analysis.ipynb
 ├── results/
 │   ├── confusion_matrix.png
 │   ├── feature_importance.png
@@ -42,26 +44,40 @@ Predictive-Vehicle-Maintenance-Analyst/
 │   ├── xgboost_log_loss.png
 │   └── xgboost_error.png
 ├── README.md
-├── requirements.txt
+└── requirements.txt
+```
 
-    
 ## Requirements
-Python 
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-imbalanced-learn
-xgboost
 
+To run this project, you'll need:
+- Python 3.7+
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- imbalanced-learn
+- xgboost
 
+Install all dependencies with:
+```bash
+pip install -r requirements.txt
+```
 
 ## Results
--Visualizations of data distribution and feature relationships.
 
-- a more Improved model performance after balancing classes with SMOTE.
-- 
--Insights into important features for predicting machine failure.
+The analysis provides:
+- Visualizations of data distribution and feature relationships
+- Improved model performance after balancing classes with SMOTE
+- Insights into important features for predicting machine failures
+- Comparison of Random Forest and XGBoost classifier performance
 
+## Usage
+
+1. Clone the repository
+2. Install the required packages
+3. Run the Jupyter notebook `predictive_maintenance_analysis.ipynb`
+4. View the results in the `results` folder
+
+This project demonstrates practical application of machine learning for predictive maintenance in automotive and industrial contexts.
 
