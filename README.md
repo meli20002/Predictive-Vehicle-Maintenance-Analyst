@@ -50,7 +50,7 @@ Predictive-Vehicle-Maintenance-Analyst/
 ## Requirements
 
 To run this project, you'll need:
-- Python 3.7+
+- Python 3. 
 - pandas
 - numpy
 - matplotlib
